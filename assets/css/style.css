@@ -48,6 +48,9 @@ Table of Contents End
 /* 2 - General styles
 ---------------------------------------------------------------------- */
 html,
+#portfolio {
+	text-align: center;
+}
 body {
 	font-family: 'Open Sans', Sans-serif;
 	font-size: 16px;
@@ -126,6 +129,7 @@ h1 {
 }
 h2 {
 	font-size: 2.18em;
+	text-align: center;
 }
 h3 {
 	font-size: 1.75em;
@@ -1111,10 +1115,38 @@ footer {
 	background-color: #000000;
 	color: #ffffff;
 	font-size: .875em;
+	text-align: center;
 }
-footer p,
+footer p {
+
+}
+a.social {
+	  
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    opacity: ;
+    transition: all .5s;
+  }
+  a.facebook {
+    background-image: url(fbw.svg);
+  }
+  a.instagram {
+    background-image: url(insw.svg);
+  }
+  a.twitter {
+    background-image: url(twitter.png);
+  }
+
+  a.social:hover {
+    transform: scale(1.2);   
+  }
+
 footer a {
-	color: #ffffff;
+	color: #ddbf15;
 }
 .footer-top {
 	padding-top: 60px;
@@ -1132,7 +1164,7 @@ footer a {
 	display: inline-block;
 	font-weight: 700;
 	padding-bottom: 5px;
-	padding-left: 15px;
+	padding-right: 15px;
 	position: relative;
 }
 .tweet-author:before {
